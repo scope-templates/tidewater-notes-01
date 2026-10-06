@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+}
+body {
+  margin: 0;
+  background: #f6f8f7;
+  color: #16302b;
+}
+main {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+form {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+input,
+textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid #b7c7c2;
+  border-radius: 4px;
+}
+button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 4px;
+  background: #1f6f5f;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+li {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #dfe7e4;
+  border-radius: 6px;
+}
+li h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+li p {
+  margin: 0 0 0.5rem;
+  white-space: pre-wrap;
+}
+time {
+  color: #5b6f6a;
+  font-size: 0.85rem;
+}
